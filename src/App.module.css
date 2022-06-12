@@ -5,9 +5,38 @@
   background-color: red;
 }
 
+.SingleLogo {
+  margin: 5px;
+  border: 3px solid black;
+  padding: 4px;
+  text-align: center;
+  width: 30%;
+}
+
+.SingleLogo:hover {
+  background-color: darkseagreen;
+  transition: 1s;
+  animation-name: nasza_animacja;
+  animation-duration: 1s;
+}
+
+@keyframes nasza_animacja {
+  from {
+  /*  width: 0px; */
+    background-color: darkseagreen;
+    font-size: 0.8em;
+  }
+  to {
+  /*  width: 25% */
+    background-color: violet;
+    font-size: 4.0em;
+  }
+}
+
 .Logos {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .LewaStrona {
@@ -17,7 +46,8 @@
 }
 
 .Tytul{
-  background-color: blue;
+  text-align: center;
+  background-color: lightblue;
   width: 150px;
 
 }

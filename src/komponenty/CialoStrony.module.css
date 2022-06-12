@@ -1,0 +1,39 @@
+.ElementGlowny{
+    width: 66%;
+    background-color: aqua;
+    height: 500px;
+    margin: auto;
+}
+
+.NaglowekTabeli {
+    font-weight: bold;
+    padding: 3px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: grey;
+}
+
+.TabelaGrid {
+    padding: 30px;
+
+}
+
+.KomorkaTabeli :hover{
+    background-color: white !important;
+}
+
+.WierszeTabeli :nth-child(odd) {
+    background-color: #00f0f0;
+}
+
+.WieszeTabeli :nth-child(even) {
+    background-color: #00d2d2;
+
+}
+
+.KomorkaTabeli div{             /* div po spacji sprawia, że ustaweienia dotyczą każdego wiersza w całej tabeli */
+    border: 1px solid black;
+    padding: 0 2px 0 2px;
+    text-align: center;
+
+}
